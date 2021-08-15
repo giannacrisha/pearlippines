@@ -39,6 +39,7 @@
 body {
 	background-color: #757366;
 	color: #EEE9E3;
+	flex-direction: column;
 }
 
 a {
@@ -56,6 +57,7 @@ a {
 
 /* NAVIGATION BAR */
 nav {
+
 	font-family: pearl;
 	padding-top: 3vw;
 	float: left;
@@ -94,3 +96,47 @@ nav a:hover {
 		transform: translateY(0px);
 	}
 }
+
+/* MAIN */
+
+.container {
+	width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -200px;
+    margin-left: -100px;
+}
+
+.shell {
+	background: url("../img/closeShell.png") no-repeat center;
+    height: 319px;
+    width: 206px;
+    display: inline-block;
+}
+
+.shell:hover {
+	background: url("../img/openShell.png") no-repeat center;
+	transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
